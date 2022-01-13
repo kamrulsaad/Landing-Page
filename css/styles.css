@@ -7,17 +7,24 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+}
+.all-top{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    max-width: 870px ;
 }
 
 /* top player section style */
 
 .top-player{
-    background-color: #FFFFFF;
-    padding: 30px;
+    padding: 30px 30px 0 30px;
     border-radius: 5px;
     margin-top: 36px;
     width: 870px;
-    max-width: 870px ;
 }
 .players{
     display: grid;
@@ -45,8 +52,46 @@ main{
 hr{
     border: 1px solid #D1D1D1;
     background-color: #D1D1D1;
-    margin-top: 30px;
+    margin: 30px 0px;
 }
 
 /* top blogs style  */
+.all-blogs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 25px;
+}
+.blogs img{
+    width: 177px;
+    height: 117px;
+}
+.top-blog{
+    padding-left: 30px;
+    margin-bottom: 42px;
+}
+.blogs{
+    display: flex;
+}
+.top-blog>h2{
+    margin-bottom: 31px;
+}
+.blog-details{
+    margin-left: 16px;
+}
+.blog-details>h3{
+    font-size: 20px;
+    line-height: 34px;
+    padding: 0 30px 0 0;
+    margin: 0;
+}
+.blog-details>p{
+    color: #9F9F9F;
+    font-size: 16px;
+    margin: 6px 0;
+}
+.blog-details span{
+    color: #562EFF;
+    font-weight: 600;
+}
 
+/* another section going to be added */
