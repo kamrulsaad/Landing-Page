@@ -207,3 +207,13 @@ nav{
 .menu-list ul li{
     list-style: none;
 }
+
+/* end of nav styling */
+
+/* adding responsiveness */
+
+@media (max-width: 480px ) {
+    nav{
+        width: 100%;
+    }
+} 
